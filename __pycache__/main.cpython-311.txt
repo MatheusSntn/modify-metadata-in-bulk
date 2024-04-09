@@ -1,0 +1,10 @@
+ExifTool Version Number         : 12.70
+File Name                       : main.cpython-311.pyc
+Directory                       : C:/Users/Matheus/Documents/Metadados Docs - Hebert/__pycache__
+File Size                       : 993 bytes
+Zone Identifier                 : Exists
+File Modification Date/Time     : 2023:12:14 12:06:55-03:00
+File Access Date/Time           : 2023:12:14 12:16:12-03:00
+File Creation Date/Time         : 2023:12:14 12:08:19-03:00
+File Permissions                : -rw-rw-rw-
+Error                           : Unknown file type
