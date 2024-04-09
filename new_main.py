@@ -10,7 +10,7 @@ def extract_exif(directory):
         for file in files:
             full_file_path = os.path.join(path, file)
             full_file_path = full_file_path.encode(encoding="utf-8")
-            exiftool_command = [r'C:\Users\MatheusSantana\OneDrive - Trivor Consultoria em TI\Documentos\exiftool-12.65\exiftool.exe', '-w', 'txt', full_file_path]
+            exiftool_command = [r'[Insira o destino de seu arquivo Exiftool de nome exiftool.exe]', '-w', 'txt', full_file_path]
             subprocess.run(exiftool_command)
     if subdirs == True:
         for subdir in subdirs:
@@ -19,7 +19,7 @@ def extract_exif(directory):
                 for file in files:
                     full_file_path = os.path.join(path, file)
                     full_file_path = full_file_path.encode(encoding="utf-8")
-                    exiftool_command = [r'C:\Users\Matheus\Documents\exiftool-12.78\exiftool.exe', '-w', 'txt', full_file_path]
+                    exiftool_command = [r'[Insira o destino de seu arquivo Exiftool de nome exiftool.exe]', '-w', 'txt', full_file_path]
                     subprocess.run(exiftool_command)
 
 def modification_time(directory, destination_path):
